@@ -1,0 +1,13 @@
+Backend:
+1 - Open the issuestracker1.sln file with visual studio
+2 - In Visual studio open appsettions.json file and change the connection string as per the server.
+3 - Open Package Manager Console and type Commands a) add-migration initial and after this b) update-database 
+  - These commands will add migrations folder in the project and create the table in the database as per the model
+      and then build and run the project
+
+
+FrontEnd:
+In angular
+1 - Install node modules by using command npm install -force
+2 - To run the application use command ng serve -o
+
